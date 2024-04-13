@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.*;
 @RequestMapping("/api/book")
 @CrossOrigin("http://localhost:4200/")
 public class BookController {
+    int x=10;
     @Autowired
     private BookService bookService;
 
