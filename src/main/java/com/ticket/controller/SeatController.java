@@ -13,6 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/api/save")
 public class SeatController {
     int x=10;
+    String s = "rahul";
     @Autowired
     private SeatService seatService;
     @PostMapping
